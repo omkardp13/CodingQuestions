@@ -1,0 +1,20 @@
+int[] arr = { 23,51, 23, 12, 44, 56 };
+
+     
+int large = arr[0];
+int second = arr[0];
+for (int i = 1; i < arr.Length; i++)
+{
+    if (large < arr[i])
+    {
+        second = large;
+        large = arr[i];
+    }
+    else if (second < arr[i] && arr[i]!=large)
+    {
+        second = arr[i];
+    }
+}
+
+Console.WriteLine("Second Largest:"+second);
+Console.ReadLine();
