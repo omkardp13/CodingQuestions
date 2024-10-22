@@ -21,11 +21,8 @@ public class Program
         DisplayDuplicatesOccurrence(numbers);
     }
 }
-
-
-//With Dictionary
-/*
- * using System;
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -62,6 +59,3 @@ public class Program
         }
     }
 }
-
- * 
- */
